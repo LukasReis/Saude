@@ -1200,3 +1200,58 @@
 2022-06-02 22:58:25,927 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
 2022-06-02 22:58:25,929 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-02 22:58:25,946 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 11:31:27,968 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-03 11:40:42,200 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:pom:6.0.1.Final has been relocated to org.hibernate.orm:hibernate-core:pom:6.0.1.Final
+2022-06-03 11:40:42,313 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-entitymanager:pom:6.0.0.Alpha7 has been relocated to org.hibernate.orm:hibernate-entitymanager:pom:6.0.0.Alpha7
+2022-06-03 11:40:45,120 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:40:45,121 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 11:40:45,135 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:40:45,160 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 11:40:50,539 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:40:50,539 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 11:40:50,542 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:40:50,550 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 11:43:13,199 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:43:13,199 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 11:43:13,202 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:43:13,205 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 11:53:40,392 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:53:40,437 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 11:53:40,440 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:53:40,440 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 11:54:46,137 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:54:46,137 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 11:54:46,151 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 11:54:46,151 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:01:01,701 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:01,726 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:01:01,730 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:01,730 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:01:24,478 [Worker-39: Launching TesteListar] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:24,478 [Worker-39: Launching TesteListar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:01:24,482 [Worker-39: Launching TesteListar] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:24,482 [Worker-39: Launching TesteListar] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:01:56,074 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:56,074 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:01:56,077 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:01:56,077 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:09:36,121 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:09:36,121 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:09:36,173 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:09:36,174 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:09:41,362 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:09:41,362 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:09:41,371 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:09:41,371 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:11:16,829 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:11:16,829 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:11:16,849 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:11:16,849 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:12:58,069 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:12:58,070 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:12:58,075 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:12:58,075 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources
+2022-06-03 13:13:04,301 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:13:04,301 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/main/resources
+2022-06-03 13:13:04,315 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-03 13:13:04,317 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/DigitalSaude/src/test/resources

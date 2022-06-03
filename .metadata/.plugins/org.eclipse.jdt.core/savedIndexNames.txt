@@ -29,8 +29,8 @@ INDEX VERSION 1.131+/home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalS
 3485350235.index
 2140059101.index
 852532401.index
-4069071256.index
 2959250077.index
+4069071256.index
 3109488430.index
 1561599860.index
 1554470268.index

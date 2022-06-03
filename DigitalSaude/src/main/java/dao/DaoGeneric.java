@@ -13,6 +13,7 @@ public class DaoGeneric<E> {
 	private EntityManager entityManager = HibernateUtil.getEntityManager();
 
 	// Metodo responsável por salvar uma entidade no banco de dados
+	
 	public void salvar(E entidade) {
 		EntityTransaction trasaction = entityManager.getTransaction();
 		trasaction.begin();
@@ -22,12 +23,14 @@ public class DaoGeneric<E> {
 	}
 
 	// Metodo responsável por retornar todas as entidades dentro do banco de dados
+	
 	public E retornar(Long id, Class<E> entidade) {
 		E e = (E) entityManager.find(entidade, id);
 		return e;
 	}
 
 	// Método responsavel por atulizar uma entidade 
+	
 	public E atualizar(E entidade) {
 		EntityTransaction trasaction = entityManager.getTransaction();
 		trasaction.begin();
@@ -37,7 +40,8 @@ public class DaoGeneric<E> {
 
 	}
 	
-	//Método responsavel por deletar uma entidade 
+	//Método responsavel por deletar uma entidade
+	
 	public void deletar(E entidade) {
 		Object id = HibernateUtil.getPrimarKay(entidade);
 		EntityTransaction trasaction = entityManager.getTransaction();
@@ -49,6 +53,7 @@ public class DaoGeneric<E> {
 		
 	}
 	
+	//Método responsavel por gerar o entityManager
 	
 	public EntityManager getEntityManager() {
 		return entityManager;
