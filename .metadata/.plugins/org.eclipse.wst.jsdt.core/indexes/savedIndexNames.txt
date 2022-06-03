@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/lucasreis/Documentos/Faculdade/Programacao IV/DigitalSaude/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3094774761.index
+3150599761.index
+3926892811.index
+4232770768.index
+3315149053.index
+2831841070.index

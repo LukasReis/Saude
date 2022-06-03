@@ -1,0 +1,8 @@
+package testes;
+
+//Classe responsável por testar o método que lista entidades do banco
+
+
+public class TesteListar {
+
+}
