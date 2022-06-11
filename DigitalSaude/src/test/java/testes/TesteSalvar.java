@@ -4,8 +4,11 @@ package testes;
 
 import org.junit.Test;
 import dao.DaoGeneric;
+import model.Enfermeiros;
 import model.Medicos;
 import model.Pacientes;
+import model.TecsEnfermagem;
+
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -16,7 +19,7 @@ public class TesteSalvar {
 		DaoGeneric<Medicos> daoGeneric = new DaoGeneric<Medicos>();
 		Medicos medicos = new Medicos();
 
-		medicos.setNomeCompleto("Yasmin Martins");
+		medicos.setNomeCompleto("Yasmim do Carlo");
 		medicos.setCpf("367.495.410-97");
 		medicos.setGenero("Feminimo");
 		medicos.setDataNascimento(LocalDate.of(1965, Month.JANUARY, 19));
@@ -29,29 +32,44 @@ public class TesteSalvar {
 		daoGeneric.salvar(medicos);
 
 	}
-	
+
 	@Test
-	public void salvarSegundaaEntidadeMedico() {
-		DaoGeneric<Medicos> daoGeneric = new DaoGeneric<Medicos>();
-		Medicos medicos = new Medicos();
+	public void salvarEntidadeEnfermeiros() {
+		DaoGeneric<Enfermeiros> daoGeneric = new DaoGeneric<Enfermeiros>();
+		Enfermeiros enfermeiros = new Enfermeiros();
 
-		medicos.setNomeCompleto("Patricia Maricia Castro");
-		medicos.setCpf("725.966.866-00");
-		medicos.setGenero("Feminimo");
-		medicos.setDataNascimento(LocalDate.of(1987, Month.MARCH, 03));
-		medicos.setCRM("CRM/MG 716823");
-		medicos.setEspecializacao("Cardiologia");
-		medicos.setEmail("patricia_castro@cartovale.com.br");
-		medicos.setSenha("mRHqLG98Ue");
-		medicos.setTelefone("(34) 99953-8590");
+		enfermeiros.setNomeCompleto("Yasmim do Carlo");
+		enfermeiros.setCpf("367.495.410-97");
+		enfermeiros.setGenero("Feminimo");
+		enfermeiros.setDataNascimento(LocalDate.of(1965, Month.JANUARY, 19));
+		enfermeiros.setCOREM("CRM/SP 123456");
+		enfermeiros.setEspecializacao("Cardiologia");
+		enfermeiros.setEmail("yasminalmeidamartins@dayrep.com");
+		enfermeiros.setSenha("8989895");
+		enfermeiros.setTelefone("(61) 5096-9555");
 
-		daoGeneric.salvar(medicos);
+		daoGeneric.salvar(enfermeiros);
 
 	}
-	
-	
-	
-	
+
+	@Test
+	public void salvarEntidadeTecsEnfermagem() {
+		DaoGeneric<TecsEnfermagem> daoGeneric = new DaoGeneric<TecsEnfermagem>();
+		TecsEnfermagem tecsEnf = new TecsEnfermagem();
+
+		tecsEnf.setNomeCompleto("Yasmim do Carlo");
+		tecsEnf.setCpf("367.495.410-97");
+		tecsEnf.setGenero("Feminimo");
+		tecsEnf.setDataNascimento(LocalDate.of(1965, Month.JANUARY, 19));
+		tecsEnf.setCOREM("CRM/SP 123456");
+		tecsEnf.setEspecializacao("Cardiologia");
+		tecsEnf.setEmail("yasminalmeidamartins@dayrep.com");
+		tecsEnf.setSenha("8989895");
+		tecsEnf.setTelefone("(61) 5096-9555");
+
+		daoGeneric.salvar(tecsEnf);
+
+	}
 
 	@Test
 	public void salvarEntidadePacientes() {

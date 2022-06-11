@@ -8,8 +8,6 @@
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.Month"/>
-    <fullyQualifiedTypeName name="model.Medicos"/>
-    <fullyQualifiedTypeName name="dao.DaoGeneric"/>
     <fullyQualifiedTypeName name="model.Pessoa"/>
     <fullyQualifiedTypeName name="jakarta.persistence.NamedQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
@@ -32,4 +30,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="model.Medicos"/>
+    <fullyQualifiedTypeName name="dao.DaoGeneric"/>
 </qualifiedTypeNameHistroy>
