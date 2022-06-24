@@ -1,6 +1,8 @@
 package model;
 
 import java.time.LocalDate;
+import java.util.Objects;
+
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
@@ -80,5 +82,33 @@ public abstract class CadastroGenerico {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
+
+	// Método toString
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(cpf, dataNascimento, email, especializacao, genero, nomeCompleto, senha, telefone);
+	}
+		
+	// HashCode e Equals
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CadastroGenerico other = (CadastroGenerico) obj;
+		return Objects.equals(cpf, other.cpf) && Objects.equals(dataNascimento, other.dataNascimento)
+				&& Objects.equals(email, other.email) && Objects.equals(especializacao, other.especializacao)
+				&& Objects.equals(genero, other.genero) && Objects.equals(nomeCompleto, other.nomeCompleto)
+				&& Objects.equals(senha, other.senha) && Objects.equals(telefone, other.telefone);
+	}
+
+	
+
+	
 
 }

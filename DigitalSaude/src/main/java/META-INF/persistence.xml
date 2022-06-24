@@ -6,10 +6,12 @@
 	<persistence-unit name="DigitalSaude">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>model.Pacientes</class>
+		<class>model.Consulta</class>
 		<class>model.Medicos</class>
 		<class>model.Enfermeiros</class>
 		<class>model.TecsEnfermagem</class>
 		<class>model.CadastroGenerico</class>
+		
 			
 		<properties>
 

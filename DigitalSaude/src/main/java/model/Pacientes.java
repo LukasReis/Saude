@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import java.time.LocalDate;
+import java.util.Objects;
 
 @Entity
 public class Pacientes {
@@ -92,5 +93,28 @@ public class Pacientes {
 				+ dataNascimento + ", genero=" + genero + ", telefone=" + telefone + ", email=" + email + ", senha="
 				+ senha + "]";
 	}
+
+	// HashCode e Equals
+	@Override
+	public int hashCode() {
+		return Objects.hash(cpf, dataNascimento, email, genero, id, nomeCompleto, senha, telefone);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Pacientes other = (Pacientes) obj;
+		return Objects.equals(cpf, other.cpf) && Objects.equals(dataNascimento, other.dataNascimento)
+				&& Objects.equals(email, other.email) && Objects.equals(genero, other.genero)
+				&& Objects.equals(id, other.id) && Objects.equals(nomeCompleto, other.nomeCompleto)
+				&& Objects.equals(senha, other.senha) && Objects.equals(telefone, other.telefone);
+	}
+
+	
 
 }
